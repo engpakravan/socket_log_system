@@ -1,0 +1,71 @@
+
+* {
+    font-family: "Source Sans Pro";
+}
+.container{
+}
+body {
+    color: #111111;
+    background-color: #FFFFFF;
+    font-size: 1.2em;
+    margin: .3em;
+}
+.time {
+    font-style: italic;
+    font-weight: 300;
+    color: #AAAAAA;
+    font-size: 0.8em;
+}
+a {
+    text-decoration: none;
+}
+
+.sendMessageButton  {
+    width: 30px;
+    height: 60px;
+    font-size: 1em;
+    background-color: #00873d;
+    color: white;
+    border: none;
+    border-radius: 0.5em;
+}
+#messages{
+    overflow-y: scroll;
+    overflow-x:hidden;
+    min-height: 100px;
+    max-height:450px;
+    margin-top: 30px;
+}
+.messages {
+    margin-bottom: .5em;
+}
+.send{
+    position:relative;
+}
+.centered {
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+input[type=text]{
+    border:none;
+    width:100%;
+    background-color: #eeeeee;
+    height:60px;
+    padding: 0.5em;
+    font-size: 1.2em;
+    margin: 1em 0;
+}
+input:active{
+    outline: none;
+}
+input:focus{
+    outline: none;
+}
+button[type=submit]{
+    position:absolute;
+    left:-37px;
+}
+.disabled{
+    display:none;
+}

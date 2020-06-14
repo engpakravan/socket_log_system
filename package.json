@@ -1,0 +1,16 @@
+{
+  "name": "chat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "nodemon ./server"
+  },
+  "author": "Mahdi Pakravan",
+  "license": "ISC",
+  "dependencies": {
+    "expressjs": "*",
+    "nodemon": "^2.0.4",
+    "socketio": "*"
+  }
+}
